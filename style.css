@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #010101;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin: 2rem;
+    padding: 2rem;
+    width: 400vw;
+    height: 80%;
+    background-color: #4d4d4d;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 2rem;
+}
+
+input{
+    background-color: #c3c7e0;
+    color: #010101;
+    margin: 2rem;
+    width: 60%;
+    height: 4rem;
+    border-radius: 1rem;
+    font-size: 20pt;
+}
